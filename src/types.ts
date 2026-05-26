@@ -16,4 +16,5 @@ export interface Collection<T> {
   size(): number;
   isEmpty(): boolean;
   clear(): void;
+  toArray(): T[];
 }
